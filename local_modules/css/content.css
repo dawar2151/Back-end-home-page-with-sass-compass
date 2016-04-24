@@ -1,0 +1,53 @@
+.content {
+  padding: 30px 0px 0px 0px;
+  background-color: white;
+  color: #3498db; }
+
+.open > .dropdown-menu {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  opacity: 1; }
+
+.dropdown-menu {
+  opacity: .3;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: scale(1, 0);
+  display: block;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  width: 220px;
+  color: #3498db; }
+
+.dropdown {
+  color: #3498db; }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1; }
+
+ul.nav-right-menu {
+  background-color: white; }
+  ul.nav-right-menu > li > a {
+    color: #3498db;
+    transition: all 0.5s ease; }
+    ul.nav-right-menu > li > a:hover {
+      background-color: #ecf0f1;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px; }
+
+.table-bordered thead tr:first-child {
+  background-color: #ecf0f1; }
+
+.dropdown-right-button {
+  background-color: #3498db;
+  color: white; }
+
+.navbar-nav > li > a {
+  -webkit-border-radius: 10x;
+  -moz-border-radius: 10x;
+  -ms-border-radius: 10x;
+  border-radius: 10x; }

@@ -1,0 +1,25 @@
+.header {
+  background-color: #3498db;
+  color: white; }
+  .header h1 {
+    padding: 0px 0px 5px 0px;
+    color: white; }
+  .header .user_container {
+    padding: 10px 0px 0px 0px; }
+    .header .user_container .list-unstyled {
+      padding-top: 10px;
+      color: white; }
+    .header .user_container .user_slug {
+      font-weight: bold;
+      font-size: 14px; }
+  .header li.logout {
+    font-size: 30px;
+    vertical-align: middle; }
+  .header li.user_info {
+    vertical-align: bottom; }
+  .header .user_img {
+    min-width: 60px; }
+  .header a {
+    color: white; }
+    .header a:hover {
+      color: #ecf0f1; }
